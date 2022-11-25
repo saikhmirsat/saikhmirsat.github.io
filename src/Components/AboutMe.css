@@ -1,0 +1,92 @@
+.aboutme {
+    margin-top: 100px;
+    align-items: center;
+    /* border: 5px solid rgb(128, 26, 0); */
+}
+
+.about-container {
+    border: 1px solid rgba(0, 124, 128, 0.421);
+    /* width: 90%; */
+    /* height: 200px; */
+    padding: 3% 10%;
+    margin: auto;
+    display: flex;
+    /* grid-template-columns: repeat(2, 60% 40%); */
+    text-align: left;
+    background-color: #02db8836;
+}
+
+.about-container>div:nth-child(1) {
+    /* border: 1px solid red; */
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+
+
+.about-container>div:nth-child(2) {
+    width: 40%;
+    /* border: 1px solid blue; */
+    /* border: 1px solid blue; */
+}
+
+.about-container>div {
+    /* border: 1px solid rgb(255, 0, 247); */
+}
+
+.aboutme-des-div {
+    /* border: 1px solid red; */
+}
+
+.aboutme-des-div>h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    font-family: Rubik;
+    font-weight: normal;
+}
+
+.animate-text-conataner {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.animate-text-conataner>h1 {
+    font-size: 25px;
+}
+
+.about-animate-text {
+    font-size: 25px;
+    color: #02db88;
+    font-weight: bolder;
+}
+
+.about-des {
+    width: 90%;
+}
+
+svg.linkedin:hover {
+
+    padding: 0px;
+    margin: 0px;
+    box-shadow: rgba(2, 247, 104, 0.95) 0px 5px 15px;
+}
+
+.myImage-div>img {
+    width: 100%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.myImage-div {
+    margin: auto;
+    width: 80%;
+    /* border: 1px solid red; */
+    background-color: #02db8858;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}

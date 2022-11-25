@@ -1,0 +1,143 @@
+.Landing {
+    /* border: 1px solid red; */
+}
+
+.Landing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+
+.Landing-container>div {
+    /* border: 1px solid blueviolet; */
+    /* height: 600px; */
+}
+
+.Landing-con-child-1 {
+    /* border: 1px solid red; */
+    padding-top: 150px;
+}
+
+
+/* ------------Animation */
+.animation-container {
+    position: relative;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 180px;
+    /* border: 1px solid red; */
+    height: auto;
+}
+
+.animation-container .ring {
+    /* border: 1px solid rgb(0, 255, 17); */
+    position: relative;
+    width: 190px;
+    height: 190px;
+    margin: -30;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid rgb(0, 208, 255);
+    animation: animate 4s linear infinite
+}
+
+
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animation-container .ring::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: rgb(0, 234, 255);
+    box-shadow: 0 0 0 5px rgba(13, 156, 184, 0.486),
+        0 0 0 10px rgba(12, 128, 195, 0.207),
+        0 0 0 20px rgba(6, 188, 209, 0.386),
+        0 0 20px rgba(7, 204, 244, 0.108),
+        0 0 20px rgba(5, 206, 246, 0.101)
+}
+
+.animation-container .ring:nth-child(2) {
+    animation: animate2 4s linear infinite;
+    animation-delay: -1s;
+    border-top: 4px solid transparent;
+    border-left: 4px solid greenyellow;
+
+}
+
+.animation-container .ring:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    bottom: 12px;
+    left: 22px;
+    top: inherit;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: greenyellow;
+    box-shadow: 0 0 0 5px rgba(0, 128, 26, 0.141),
+        0 0 0 10px rgba(0, 128, 13, 0.647),
+        0 0 0 20px rgba(0, 128, 0, 0.452),
+        0 0 20px rgba(5, 133, 30, 0.091),
+        0 0 20px rgba(9, 233, 46, 0.111)
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.animation-container .ring:nth-child(3) {
+    animation: animate2 4s linear infinite;
+    animation-delay: -3s;
+    position: absolute;
+    top: -66.66px;
+    border: 4px solid transparent;
+    border-top: 4px solid rgb(241, 5, 198);
+
+}
+
+.animation-container .ring:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    top: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 0, 204);
+    box-shadow: 0 0 0 5px rgba(192, 4, 205, 0.248),
+        0 0 0 10px rgba(210, 8, 207, 0.2),
+        0 0 0 20px rgba(220, 4, 184, 0.234),
+        0 0 20px rgba(229, 21, 198, 0.047),
+        0 0 20px rgba(233, 9, 233, 0.048)
+}
+
+
+
+/* .animation-container .ring:nth-child(3) {} */
+
+
+/* ------------Animation */
