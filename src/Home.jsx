@@ -6,6 +6,7 @@ import { ThemeContext } from './Context/ThemeContext'
 import './Home.css'
 import Landing from './Components/Landing'
 import AboutMe from './Components/AboutMe'
+import Contact from './Components/Contact'
 
 
 export default function Home() {
@@ -47,7 +48,7 @@ export default function Home() {
             <div ref={refSkills} style={{ height: "100vh", border: '3px solid blue' }}>Skills</div>
             <div ref={refProjects} style={{ height: "100vh", border: '3px solid yellow' }}>Projects</div>
             {/* <div ref={refResume} style={{ height: "100vh", border: '3px solid pink' }}>Resume</div> */}
-            <div ref={refContact} style={{ height: "100vh", border: '3px solid orange' }}>Cantact</div>
+            <div ref={refContact} ><Contact /></div>
         </div>
     )
 }

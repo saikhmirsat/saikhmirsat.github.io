@@ -35,7 +35,7 @@ export default function Navbar({ homeHandle, aboutHandle, skillsHandle, projectH
                 <li
                     onClick={homeHandle}><h4>Home</h4></li>
                 <li
-                    onClick={aboutHandle}><h4 style={{ width: '90px' }}>About Me</h4></li>
+                    className='about-me' onClick={aboutHandle}><h4 style={{ width: '90px' }}>About Me</h4></li>
                 <li
                     onClick={skillsHandle}><h4>Skills</h4></li>
                 <li

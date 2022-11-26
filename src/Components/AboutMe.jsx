@@ -38,13 +38,13 @@ export default function AboutMe() {
                         <div style={{ display: 'flex', gap: "30px", marginTop: "30px", justifyContent: 'center' }}>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="#"><AiOutlineLinkedin className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                            ><a href="https://www.linkedin.com/in/saikhmirsat/"><AiOutlineLinkedin className='linkedin' size="50px" color='#02db88' /></a></motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="#"><FaGithubSquare className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                            ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#02db88' /></a></motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="#"><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                            ><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
                         </div>
                     </div>
                 </div>
