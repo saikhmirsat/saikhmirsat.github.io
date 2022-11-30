@@ -12,6 +12,7 @@ import { MdOutlineMailOutline } from 'react-icons/md'
 import { BsTelephoneOutbound } from 'react-icons/bs'
 import { AiOutlineHome } from 'react-icons/ai'
 import { GoMail } from 'react-icons/go'
+import { TbPhoneCall } from 'react-icons/tb'
 
 export default function Contact() {
 
@@ -70,7 +71,11 @@ export default function Contact() {
                         ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#02db88' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        ><a href="mailto:saikh.mirsat.786@gmail.com" ><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        <motion.div
+                            whileHover={{ scale: 1.3 }}
+                        ><a href="tel:7205190819" ><TbPhoneCall className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { FaGithubSquare } from 'react-icons/fa'
 import { GoMail } from 'react-icons/go'
+import { TbPhoneCall } from 'react-icons/tb'
 import { motion } from 'framer-motion'
 
 
@@ -44,7 +45,11 @@ export default function AboutMe() {
                             ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#02db88' /></a></motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                            ><a href="mailto:saikh.mirsat.786@gmail.com" ><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                            <motion.div
+                                whileHover={{ scale: 1.3 }}
+                            ><a href="tel:7205190819" ><TbPhoneCall className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+
                         </div>
                     </div>
                 </div>
