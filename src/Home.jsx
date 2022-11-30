@@ -45,10 +45,12 @@ export default function Home() {
             {/* <div style={{ height: "75px", position: "sticky" }}></div> */}
             <div ref={refHome} ><Landing /></div>
             <div ref={refAbout} style={{ paddingTop: '80px' }} ><AboutMe /></div>
-            <div ref={refSkills} style={{ height: "100vh", border: '3px solid blue' }}>Skills</div>
-            <div ref={refProjects} style={{ height: "100vh", border: '3px solid yellow' }}>Projects</div>
-            {/* <div ref={refResume} style={{ height: "100vh", border: '3px solid pink' }}>Resume</div> */}
+            {/* <div ref={refSkills} style={{ height: "100vh", border: '3px solid blue' }}>Skills</div> */}
+            {/* <div ref={refProjects} style={{ height: "100vh", border: '3px solid yellow' }}>Projects</div> */}
             <div ref={refContact} ><Contact /></div>
+            <div style={{ backgroundColor: 'grey', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid grey' }}>
+                <p>Designed & Built by Saikh Mirsat  © 2022 All rights reserved.</p>
+            </div>
         </div>
     )
 }

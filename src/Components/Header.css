@@ -60,3 +60,20 @@
         transform: translate(0);
     }
 }
+
+@media screen and (max-width:820px) {
+    .Header {
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+
+    .Header-intro {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {}

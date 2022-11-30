@@ -8,7 +8,7 @@ export default function Header() {
     const [state] = useState({
         title: "Hi,",
         title2: "I'm",
-        title3: "Code&Coding"
+        title3: "Saikh Mirsat"
     })
     return (
         <div className='Header'>
@@ -24,9 +24,9 @@ export default function Header() {
                             autoStart: true,
                             loop: true,
                             delay: 40,
-                            strings: ['I am Saikh Mirsat',
+                            strings: ['I love Problem Solving',
                                 'I love Coding',
-                                'I love Problem Solving'
+                                'I love Debugging'
                             ],
                         }}
                     />

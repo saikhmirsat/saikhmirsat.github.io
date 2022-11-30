@@ -4,6 +4,14 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { AiOutlineLinkedin } from 'react-icons/ai';
+// import { BsGithub } from 'react-icons/bs';
+import { motion } from 'framer-motion'
+import { FaGithubSquare } from 'react-icons/fa'
+import { MdOutlineMailOutline } from 'react-icons/md'
+import { BsTelephoneOutbound } from 'react-icons/bs'
+import { AiOutlineHome } from 'react-icons/ai'
+import { GoMail } from 'react-icons/go'
 
 export default function Contact() {
 
@@ -23,11 +31,13 @@ export default function Contact() {
 
     };
 
+
+
     return (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)' }}>
+        <div className='contact-container'>
             <div className='input-container'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <h2 style={{ position: 'relative', bottom: '17px' }}>Messege me</h2>
+                    <h2 className='meg-me' >Messege me</h2>
                     {/* <label>Name</label> */}
                     <input type="text" name="user_name" placeholder='Name' /><br />
                     {/* <label>Email</label> */}
@@ -38,11 +48,31 @@ export default function Contact() {
                 </form>
                 <ToastContainer />
             </div>
-            <div style={{ padding: '50px' }}>
-                {/* <div style={{ border: "1px solid red" }} >
-                    <h1 style={{ textDecoration: 'underline', textUnderlineOffset: '12px' }}>Contact Me</h1>
-                    <a href="/Users/saikhmirsat/Desktop/Portfolio/my-portfolio/src/Components/Resume/Saikh_Mirsat_Resume_.pdf" download>Resume</a>
-                </div> */}
+            <div className='contact-con-child-2'>
+                <div className='cont-con-child-2-con-1' >
+                    <div style={{ width: '200px', height: '100px', margin: "auto", display: 'flex', alignItems: 'center' }}>
+                        <button className='resume-btn'><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/uc?export=download&id=1imBTexe0OSVvVlGaFq7dljd8kThFy8Ks">Resume</a></button>
+                    </div>
+
+                    <h1 className='contact-me-head'>Contact Me</h1>
+                    <div className='con-address-container'>
+                        <div className='con-logo-container'><MdOutlineMailOutline color='#00a565' />saikh.mirsat.786@gmail.com</div>
+                        <div className='con-logo-container'><BsTelephoneOutbound color='#00a565' />7205190819</div>
+                        <div className='con-logo-container'><AiOutlineHome color='#00a565' />Puri, 752107, Odisha</div>
+                    </div>
+
+                    <div style={{ display: 'flex', gap: "30px", marginTop: "30px", justifyContent: 'center' }}>
+                        <motion.div
+                            whileHover={{ scale: 1.3 }}
+                        ><a href="https://www.linkedin.com/in/saikhmirsat/"><AiOutlineLinkedin className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        <motion.div
+                            whileHover={{ scale: 1.3 }}
+                        ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        <motion.div
+                            whileHover={{ scale: 1.3 }}
+                        ><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                    </div>
+                </div>
             </div>
         </div>
     )

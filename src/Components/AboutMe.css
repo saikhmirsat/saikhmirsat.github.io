@@ -1,5 +1,5 @@
 .aboutme {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     align-items: center;
     /* border: 5px solid rgb(128, 26, 0); */
 }
@@ -55,7 +55,7 @@
 }
 
 .animate-text-conataner>h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .about-animate-text {
@@ -89,4 +89,94 @@ svg.linkedin:hover {
     display: flex;
     justify-content: center;
     border-radius: 50%;
+}
+
+@media screen and (max-width:820px) {
+    .about-container {
+        /* border: 1px solid ghostwhite; */
+        padding: 5%;
+    }
+
+    .aboutme-des-div {
+        /* border: 1px solid red; */
+        padding: 0px;
+    }
+
+    .animate-text-conataner>h1 {
+        font-size: 18px;
+    }
+
+
+    .aboutme-des-div>.hi {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .about-animate-text {
+        font-size: 18px;
+    }
+
+    .animate-text-conataner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutme-des-div>.about-des {
+        width: 100%;
+        /* border: 1px solid gold; */
+        font-size: 17px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    #about-cont-child-1 {
+        padding: 0px;
+    }
+
+    #about-cont-child-2 {
+        /* border: 1px solid gold; */
+        display: flex;
+        align-items: center;
+    }
+
+    .myImage-div {
+        width: 100%;
+        /* border: 1px solid hotpink; */
+    }
+}
+
+@media screen and (max-width:480px) {
+    .about-container {
+        padding: 8%;
+        /* border: 1px solid ghostwhite; */
+        flex-direction: column-reverse;
+    }
+
+    #about-cont-child-1 {
+        /* border: 1px solid rgb(99, 99, 215); */
+        width: 100%;
+    }
+
+    #about-cont-child-2 {
+        /* padding: 10% 10% 4% 10%; */
+        /* border: 1px solid ghostwhite; */
+        width: 100%;
+    }
+
+    .about-animate-text {
+        font-size: 25px;
+    }
+
+    .animate-text-conataner>h1 {
+        font-size: 25px;
+    }
+
+
+    .aboutme-des-div>.hi {
+        font-size: 25px;
+    }
+
+    .aboutme-des-div>.about-des {
+        font-size: 18px;
+    }
 }

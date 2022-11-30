@@ -14,7 +14,7 @@ export default function AboutMe() {
             <div className='about-container'>
                 <div id='about-cont-child-1'>
                     <div className='aboutme-des-div'>
-                        <h1 >Hi....</h1>
+                        <h1 className='hi'>Hi....</h1>
                         <div className='animate-text-conataner'>
                             <h1>I'm Saikh Mirsat & I'm a &nbsp;</h1>
                             <div className='about-animate-text'>

@@ -35,17 +35,15 @@ export default function Navbar({ homeHandle, aboutHandle, skillsHandle, projectH
                 <li
                     onClick={homeHandle}><h4>Home</h4></li>
                 <li
-                    className='about-me' onClick={aboutHandle}><h4 style={{ width: '90px' }}>About Me</h4></li>
+                    onClick={aboutHandle}><h4>About Me</h4></li>
                 <li
                     onClick={skillsHandle}><h4>Skills</h4></li>
                 <li
                     onClick={projectHandle}><h4>Projects</h4></li>
                 {/* <li onClick={resumeHandle}><h4>Resume</h4></li> */}
-                <li
-                    className='contact-resume' onClick={contactHandle}><h4 style={{ width: '230px' }}>Contact and Resume</h4></li>
+                <li onClick={contactHandle}><h4 >Contact & Resume</h4></li>
 
-                <li
-                    className='themeBtn' style={{ width: '70px' }} onClick={themeHandle}>{theme ? <MdLightMode style={{ color: 'black' }} /> : <MdOutlineLightMode style={{ color: 'yellow' }} />}</li>
+                <li className='themeBtn' onClick={themeHandle}>{theme ? <MdLightMode style={{ color: 'black' }} /> : <MdOutlineLightMode style={{ color: 'yellow' }} />}</li>
             </ul>
             <li className='mobile-menu-icon'
                 onClick={() => setIsMobile(!isMobile)}>
