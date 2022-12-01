@@ -6,6 +6,7 @@ import { FaGithubSquare } from 'react-icons/fa'
 import { GoMail } from 'react-icons/go'
 import { TbPhoneCall } from 'react-icons/tb'
 import { motion } from 'framer-motion'
+import myPicture from '../Images/myPicture.png'
 
 
 
@@ -55,7 +56,8 @@ export default function AboutMe() {
                 </div>
                 <div id='about-cont-child-2'>
                     <div className='myImage-div'>
-                        <img src="https://i.ibb.co/k9679n4/saikhmirsat-blzr-image-png.png" alt="myImage" />
+                        <img src={myPicture} alt="" />
+                        {/* <img src="https://i.ibb.co/k9679n4/saikhmirsat-blzr-image-png.png" alt="myImage" /> */}
                     </div>
                 </div>
             </div>
