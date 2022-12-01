@@ -1,6 +1,7 @@
 .contact-container {
     /* border: 3px solid rgb(236, 6, 240); */
     display: flex;
+    background-color: rgba(0, 128, 128, 0.189);
 }
 
 .input-container {

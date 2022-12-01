@@ -7,6 +7,7 @@ import './Home.css'
 import Landing from './Components/Landing'
 import AboutMe from './Components/AboutMe'
 import Contact from './Components/Contact'
+import Skills from './Components/Skills'
 
 
 export default function Home() {
@@ -45,7 +46,7 @@ export default function Home() {
             {/* <div style={{ height: "75px", position: "sticky" }}></div> */}
             <div ref={refHome} ><Landing /></div>
             <div ref={refAbout} style={{ paddingTop: '80px' }} ><AboutMe /></div>
-            {/* <div ref={refSkills} style={{ height: "100vh", border: '3px solid blue' }}>Skills</div> */}
+            <div ref={refSkills} ><Skills /></div>
             {/* <div ref={refProjects} style={{ height: "100vh", border: '3px solid yellow' }}>Projects</div> */}
             <div ref={refContact} ><Contact /></div>
             <div style={{ backgroundColor: 'grey', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid grey' }}>

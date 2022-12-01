@@ -5,7 +5,6 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-// import { BsGithub } from 'react-icons/bs';
 import { motion } from 'framer-motion'
 import { FaGithubSquare } from 'react-icons/fa'
 import { MdOutlineMailOutline } from 'react-icons/md'
@@ -39,11 +38,8 @@ export default function Contact() {
             <div className='input-container'>
                 <form ref={form} onSubmit={sendEmail}>
                     <h2 className='meg-me' >Messege me</h2>
-                    {/* <label>Name</label> */}
                     <input type="text" name="user_name" placeholder='Name' /><br />
-                    {/* <label>Email</label> */}
                     <input type="email" name="user_email" placeholder='Email' /><br />
-                    {/* <label>Message</label> */}
                     <textarea name="message" placeholder='Message' /><br />
                     <input id='submitBTN' type="submit" value="Send message" />
                 </form>

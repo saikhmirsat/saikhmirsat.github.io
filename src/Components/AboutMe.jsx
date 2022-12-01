@@ -55,7 +55,7 @@ export default function AboutMe() {
                 </div>
                 <div id='about-cont-child-2'>
                     <div className='myImage-div'>
-                        <img src="https://i.ibb.co/k9679n4/saikhmirsat-blzr-image-png.png" alt="saikhmirsat-blzr-image-png" />
+                        <img src="https://i.ibb.co/k9679n4/saikhmirsat-blzr-image-png.png" alt="myImage" />
                     </div>
                 </div>
             </div>

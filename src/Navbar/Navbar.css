@@ -42,8 +42,8 @@
 
 .navbar.active {
     /* background-image: linear-gradient(to right, #026740, #00FA9A, #047248); */
-    background-color: rgb(1, 134, 81);
-    box-shadow: rgba(75, 237, 249, 0.368) 0px 10px 15px -3px, rgba(4, 45, 252, 0.451) 0px 4px 6px -2px;
+    background-color: rgb(22, 167, 109);
+    /* box-shadow: rgba(75, 237, 249, 0.368) 0px 10px 15px -3px, rgba(4, 45, 252, 0.451) 0px 4px 6px -2px; */
     /* background-color: #00FA9A; */
     /* color: white; */
     transition: 0.5s;
