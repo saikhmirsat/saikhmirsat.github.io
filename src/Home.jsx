@@ -8,6 +8,7 @@ import Landing from './Components/Landing'
 import AboutMe from './Components/AboutMe'
 import Contact from './Components/Contact'
 import Skills from './Components/Skills'
+import Project from './Components/Project'
 
 
 export default function Home() {
@@ -47,7 +48,7 @@ export default function Home() {
             <div ref={refHome} ><Landing /></div>
             <div ref={refAbout} style={{ paddingTop: '80px' }} ><AboutMe /></div>
             <div ref={refSkills} ><Skills /></div>
-            {/* <div ref={refProjects} style={{ height: "100vh", border: '3px solid yellow' }}>Projects</div> */}
+            <div ref={refProjects} ><Project /></div>
             <div ref={refContact} ><Contact /></div>
             <div style={{ backgroundColor: 'grey', display: 'flex', justifyContent: 'center', alignItems: 'center', border: '1px solid grey' }}>
                 <p>Designed & Built by Saikh Mirsat  © 2022 All rights reserved.</p>
