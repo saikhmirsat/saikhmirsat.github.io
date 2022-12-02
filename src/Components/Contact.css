@@ -1,7 +1,8 @@
 .contact-container {
-    /* border: 3px solid rgb(236, 6, 240); */
+    border-top: 1px solid #039ce33d;
+    box-shadow: 0px 10px 20px #039de3;
     display: flex;
-    background-color: rgba(0, 128, 128, 0.189);
+    /* background-color: #039ce32a; */
 }
 
 .input-container {
@@ -13,7 +14,7 @@
 .input-container>form {
     /* border: 2px solid #00CA7C; */
     border-radius: 10px;
-    box-shadow: #00CA7C 0px 5px 10px, #00CA7C 0px 0px 20px;
+    box-shadow: #039ce377 0px 5px 10px, #039ce34f 0px 0px 20px;
     width: 80%;
     margin: auto;
     padding: 40px 40px 10px 40px;
@@ -28,10 +29,10 @@
     font-size: 25px;
     padding-left: 30px;
     background: none;
-    border: 1px solid #00CA7C;
-    box-shadow: 0px 2px 2px #00CA7C;
-    color: #00CA7C;
-    font-weight: normal;
+    /* border: 1px solid #039de3; */
+    box-shadow: 1px 0px 10px #039de3;
+    color: #039de3;
+    font-weight: lighter;
     outline: none;
 }
 
@@ -44,9 +45,9 @@
     font-size: 25px;
     padding: 30px;
     background: none;
-    border: 1px solid #00CA7C;
-    box-shadow: 0px 2px 2px #00CA7C;
-    color: #00CA7C;
+    /* border: 1px solid #039de3; */
+    box-shadow: 1px 0px 10px #039de3;
+    color: #039de3;
     font-weight: normal;
     background: none;
     outline: none;
@@ -60,28 +61,28 @@
 
 ::-webkit-input-placeholder {
     /* Edge */
-    color: #00CA7C;
+    color: #039de3;
     font-size: 20px;
 }
 
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #00CA7C;
+    color: #039de3;
     font-size: 20px;
 }
 
 ::placeholder {
-    color: #00CA7C;
+    color: #039de3;
     font-size: 20px;
 }
 
 .input-container>form>input:hover {
-    box-shadow: #00CA7C 0px 5px 10px, #00CA7C 0px 0px 30px;
+    box-shadow: #039de3 0px 5px 10px, #039de3 0px 0px 20px;
     transition: 0.7s;
 }
 
 .input-container>form>textarea:hover {
-    box-shadow: #00CA7C 0px 5px 10px, #00CA7C 0px 0px 30px;
+    box-shadow: #039de3 0px 5px 10px, #039de3 0px 0px 30px;
     transition: 0.7s;
 }
 
@@ -91,12 +92,12 @@
     border-radius: 10px;
     font-size: 25px;
     background: none;
-    /* border: 1px solid #00CA7C; */
-    box-shadow: 0px 2px 2px #00CA7C;
+    border: 1px solid #039de3;
     color: white;
     font-weight: bold;
     text-shadow: 0px 2px black;
-    background-color: #00A565;
+    background-color: #039de3;
+    box-shadow: none;
 }
 
 #submitBTN:hover {
@@ -125,17 +126,19 @@
     padding: 10px 20px;
     border-radius: 15px;
     border: none;
-    background-color: #01a566;
+    background-color: #039de3;
+    text-shadow: 0px 2px black;
 }
 
 .resume-btn:hover {
-    box-shadow: 0px 10px 20px 0px #08ec94;
+    /* border: 1px solid #039de3; */
+    box-shadow: 0px 0px 20px 0px #039de3;
     transition: 0.5s;
 }
 
 .contact-me-head {
     font-size: 25px;
-    color: #00A565;
+    color: #039de3;
     text-decoration: underline;
     text-underline-offset: 12px;
     margin-top: 30px;

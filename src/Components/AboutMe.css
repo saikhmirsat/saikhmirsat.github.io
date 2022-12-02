@@ -5,7 +5,7 @@
 }
 
 .about-container {
-    border: 1px solid rgba(0, 128, 128, 0.29);
+    /* border: 1px solid #039de3; */
     /* width: 90%; */
     /* height: 200px; */
     padding: 3% 10%;
@@ -14,7 +14,7 @@
     /* grid-template-columns: repeat(2, 60% 40%); */
     text-align: left;
     /* background-color: #02db8836; */
-    background-color: rgba(0, 128, 128, 0.29);
+    background-color: #039ce32c;
 }
 
 .about-container>div:nth-child(1) {
@@ -61,7 +61,7 @@
 
 .about-animate-text {
     font-size: 25px;
-    color: #02db88;
+    color: #039de3;
     font-weight: bolder;
 }
 
@@ -73,7 +73,7 @@ svg.linkedin:hover {
 
     padding: 0px;
     margin: 0px;
-    box-shadow: rgba(2, 247, 104, 0.95) 0px 5px 15px;
+    box-shadow: #039de3 0px 5px 15px;
 }
 
 .myImage-div>img {
@@ -85,15 +85,15 @@ svg.linkedin:hover {
 .myImage-div {
     margin: auto;
     width: 80%;
-    /* border: 1px solid red; */
-    background-color: #02db8858;
+    /* border: 5px solid white; */
+    background-color: #039de3;
     display: flex;
     justify-content: center;
     border-radius: 50%;
 }
 
 .myImage-div:hover {
-    box-shadow: 5px 0px 30px #02db8895;
+    box-shadow: 5px 0px 30px #039de3;
     transition: 0.8s;
 }
 

@@ -53,24 +53,24 @@ export default function Contact() {
 
                     <h1 className='contact-me-head'>Contact Me</h1>
                     <div className='con-address-container'>
-                        <div className='con-logo-container'><MdOutlineMailOutline color='#00a565' />saikh.mirsat.786@gmail.com</div>
-                        <div className='con-logo-container'><BsTelephoneOutbound color='#00a565' />7205190819</div>
-                        <div className='con-logo-container'><AiOutlineHome color='#00a565' />Puri, 752107, Odisha</div>
+                        <div className='con-logo-container'><MdOutlineMailOutline color='#039de3' />saikh.mirsat.786@gmail.com</div>
+                        <div className='con-logo-container'><BsTelephoneOutbound color='#039de3' />7205190819</div>
+                        <div className='con-logo-container'><AiOutlineHome color='#039de3' />Puri, 752107, Odisha</div>
                     </div>
 
                     <div style={{ display: 'flex', gap: "30px", marginTop: "30px", justifyContent: 'center' }}>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="https://www.linkedin.com/in/saikhmirsat/"><AiOutlineLinkedin className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        ><a href="https://www.linkedin.com/in/saikhmirsat/"><AiOutlineLinkedin className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="mailto:saikh.mirsat.786@gmail.com" ><GoMail className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        ><a href="mailto:saikh.mirsat.786@gmail.com" ><GoMail className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="tel:7205190819" ><TbPhoneCall className='linkedin' size="50px" color='#02db88' /></a></motion.div>
+                        ><a href="tel:7205190819" ><TbPhoneCall className='linkedin' size="50px" color='#039de3' /></a></motion.div>
 
                     </div>
                 </div>
