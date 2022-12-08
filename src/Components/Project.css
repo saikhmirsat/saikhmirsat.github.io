@@ -101,6 +101,26 @@
     margin-bottom: 40px;
 }
 
+article.react-activity-calendar {
+    /* border: 1px solid red; */
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.state-con {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.state-con>img {
+    width: 100%;
+}
+
 @media screen and (max-width:820px) {
     .project-container {
         gap: 0px;
@@ -171,6 +191,15 @@
         width: 20px;
     }
 
+    .state-con {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    article.react-activity-calendar {
+        width: 80%;
+
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -203,5 +232,23 @@
     .project-logo-con {
         margin-bottom: 20px;
         margin-top: 20px;
+    }
+
+    .state-con {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    article.react-activity-calendar {
+        width: 80%;
+
+    }
+
+    .git-Cal-Head {
+        font-size: 20px;
+    }
+
+    .react-activity-calendar__count {
+        font-size: 10px;
     }
 }

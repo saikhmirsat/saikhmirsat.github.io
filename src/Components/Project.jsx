@@ -7,6 +7,8 @@ import javascript from '../Images/javascript.png'
 import css from '../Images/css.png'
 import lovoda from '../Images/lovoda.jpg'
 import kindmeal from '../Images/kindmeal.jpg'
+import GithubCalender from './GithubCalender';
+import { motion } from 'framer-motion'
 
 export default function Project() {
     return (
@@ -70,6 +72,15 @@ export default function Project() {
                             <button><a href="https://lovoda-clone-far-powder-2496.netlify.app/" target="_blank">Live View</a></button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div >
+                <h1 className='git-Cal-Head'>GitHub Calendar </h1>
+                <GithubCalender />
+                <div className='state-con'>
+                    <motion.img whileHover={{ scale: 1.1 }}
+                        src="https://streak-stats.demolab.com/?user=saikhmirsat&theme=buefy" alt="" />
+                    <motion.img whileHover={{ scale: 1.1 }} src="https://github-readme-stats.vercel.app/api?username=saikhmirsat&show_icons=true&theme=algolia&count_private=true" alt="" />
                 </div>
             </div>
         </div>

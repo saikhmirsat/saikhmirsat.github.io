@@ -10,6 +10,7 @@ import myPicture from '../Images/myPicture.png'
 
 
 
+
 export default function AboutMe() {
     return (
         <div className='aboutme'>
@@ -61,6 +62,7 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
