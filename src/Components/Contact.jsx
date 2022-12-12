@@ -47,11 +47,11 @@ export default function Contact() {
             </div>
             <div className='contact-con-child-2'>
                 <div className='cont-con-child-2-con-1' >
-                    <div style={{ width: '200px', height: '100px', margin: "auto", display: 'flex', alignItems: 'center' }}>
-                        <button className='resume-btn'><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/uc?export=download&id=1imBTexe0OSVvVlGaFq7dljd8kThFy8Ks">Resume</a></button>
+                    <div className='resume-btn-div'>
+                        <button className='resume-btn'><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/uc?export=download&id=1imBTexe0OSVvVlGaFq7dljd8kThFy8Ks">Download My Resume</a></button>
                     </div>
 
-                    <h1 className='contact-me-head'>Contact Me</h1>
+                    {/* <h1 className='contact-me-head'>Contact Me</h1> */}
                     <div className='con-address-container'>
                         <div className='con-logo-container'><MdOutlineMailOutline color='#039de3' />saikh.mirsat.786@gmail.com</div>
                         <div className='con-logo-container'><BsTelephoneOutbound color='#039de3' />7205190819</div>

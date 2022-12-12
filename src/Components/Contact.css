@@ -119,22 +119,31 @@
 
 }
 
+.resume-btn-div {
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color: #039de3;
+    border-radius: 5px;
+}
+
 .resume-btn {
-    width: 200px;
-    font-size: 30px;
+    /* width: 200px; */
+    font-size: 25px;
     color: white;
     padding: 10px 20px;
     border-radius: 15px;
     border: none;
-    background-color: #039de3;
+    /* background-color: #039de3; */
+    background: none;
     text-shadow: 0px 2px black;
 }
 
-.resume-btn:hover {
-    /* border: 1px solid #039de3; */
+/* .resume-btn:hover {
+    border: 1px solid #039de3;
     box-shadow: 0px 0px 20px 0px #039de3;
     transition: 0.5s;
-}
+} */
 
 .contact-me-head {
     font-size: 25px;
@@ -184,8 +193,12 @@
 
 @media screen and (max-width:480px) {
     .resume-btn {
-        font-size: 22px;
+        font-size: 20px;
         padding: 5px 10px;
+    }
+
+    .resume-btn-div {
+        margin-top: 20px;
     }
 
     .contact-me-head {
@@ -217,6 +230,10 @@
         padding: 0px;
         font-size: 16px;
         height: 30px;
+    }
+
+    .input-container>form {
+        padding-bottom: 0px;
     }
 
     .input-container>form>input {

@@ -24,9 +24,99 @@
     align-items: center;
 }
 
-.skills-container>div:hover {
+/* .skills-container>div:hover {
     box-shadow: 0px 5px 20px #039de3;
+} */
+.skills-container>div:nth-child(1):hover {
+    box-shadow: 0px 5px 20px #e36403;
+    /*  */
 }
+
+.skills-container>div:nth-child(2):hover {
+    box-shadow: 0px 5px 20px #0377e3;
+
+}
+
+.skills-container>div:nth-child(3):hover {
+    box-shadow: 0px 5px 20px #f8f803;
+
+}
+
+.skills-container>div:nth-child(4):hover {
+    box-shadow: 0px 5px 20px #03e30e;
+
+}
+
+.skills-container>div:nth-child(5):hover {
+    box-shadow: 0px 5px 20px #fbf2eb;
+
+}
+
+.skills-container>div:nth-child(6):hover {
+    box-shadow: 0px 5px 20px #0e9bf8;
+
+}
+
+.skills-container>div:nth-child(7):hover {
+    box-shadow: 0px 5px 20px #ab04c9;
+
+}
+
+.skills-container>div:nth-child(8):hover {
+    box-shadow: 0px 5px 20px #03c5e3;
+
+}
+
+.skills-container>div:nth-child(9):hover {
+    box-shadow: 0px 5px 20px #03a7e3;
+
+}
+
+.skills-container>div:nth-child(10):hover {
+    box-shadow: 0px 5px 20px #03dbe3;
+
+}
+
+.skills-container>div:nth-child(11):hover {
+    box-shadow: 0px 5px 20px #a703e3;
+
+}
+
+.skills-container>div:nth-child(12):hover {
+    box-shadow: 0px 5px 20px #e30389;
+
+}
+
+.skills-container>div:nth-child(13):hover {
+    box-shadow: 0px 5px 20px #e30312;
+
+}
+
+.skills-container>div:nth-child(14):hover {
+    box-shadow: 0px 5px 20px #03afe3;
+
+}
+
+.skills-container>div:nth-child(15):hover {
+    box-shadow: 0px 5px 20px #03e34a;
+
+}
+
+.skills-container>div:nth-child(16):hover {
+    box-shadow: 0px 5px 20px #03e3d8;
+
+}
+
+.skills-container>div:nth-child(17):hover {
+    box-shadow: 0px 5px 20px #2803e3;
+
+}
+
+.skills-container>div:nth-child(18):hover {
+    box-shadow: 0px 5px 20px #03e36f;
+
+}
+
 
 .skills-container>div>img {
     width: 100%;
@@ -46,7 +136,7 @@
 
     .skills-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
 

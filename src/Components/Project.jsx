@@ -1,12 +1,23 @@
 import React from 'react'
 import "./Project.css"
 import chargebee from '../Images/chargebee.jpg'
+import chargebee2 from '../Images/chargebee2.jpg'
+import chargebee3 from '../Images/chargebee3.jpg'
+import chargebee4 from '../Images/chargebee4.jpg'
+import chargebee5 from '../Images/chargebee5.jpg'
 import react from '../Images/react.png'
 import html from '../Images/html.png'
 import javascript from '../Images/javascript.png'
 import css from '../Images/css.png'
 import lovoda from '../Images/lovoda.jpg'
+import lovoda2 from '../Images/lovoda2.jpg'
+import lovoda3 from '../Images/lovoda3.jpg'
+import lovoda4 from '../Images/lovoda4.jpg'
 import kindmeal from '../Images/kindmeal.jpg'
+import kindmeal2 from '../Images/kindmeal2.jpg'
+import kindmeal3 from '../Images/kindmeal3.jpg'
+import kindmeal4 from '../Images/kindmeal4.jpg'
+import kindmeal5 from '../Images/kindmeal5.jpg'
 import GithubCalender from './GithubCalender';
 import { motion } from 'framer-motion'
 
@@ -16,7 +27,22 @@ export default function Project() {
             <h1>My Projects</h1>
             <div className='project-container'>
                 <div className='project-img-div'>
-                    <img src={chargebee} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }}
+                        src={chargebee} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={chargebee2} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={chargebee3} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={chargebee4} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={chargebee5} alt="chargebee" />
                 </div>
                 <div className='project-cont-child-2'>
                     <div className='project-cont-child-2-con1'>
@@ -36,7 +62,22 @@ export default function Project() {
             </div>
             <div className='project-container'>
                 <div className='project-img-div'>
-                    <img src={kindmeal} alt="kindmeal" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }}
+                        src={kindmeal} alt="kindmeal" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={kindmeal2} alt="kindmeal" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={kindmeal3} alt="kindmeal" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={kindmeal4} alt="kindmeal" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={kindmeal5} alt="kindmeal" />
                 </div>
                 <div className='project-cont-child-2'>
                     <div className='project-cont-child-2-con1'>
@@ -56,7 +97,19 @@ export default function Project() {
             </div>
             <div className='project-container'>
                 <div className='project-img-div'>
-                    <img src={lovoda} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }}
+                        src={lovoda} alt="lovoda" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={lovoda2} alt="lovoda" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={lovoda3} alt="lovoda" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={lovoda4} alt="lovoda" />
                 </div>
                 <div className='project-cont-child-2'>
                     <div className='project-cont-child-2-con1'>
@@ -74,9 +127,11 @@ export default function Project() {
                     </div>
                 </div>
             </div>
+
             <div >
                 <h1 className='git-Cal-Head'>GitHub Calendar </h1>
                 <GithubCalender />
+                <h1 className='git-Cal-Head'>My Statistics</h1>
                 <div className='state-con'>
                     <motion.img whileHover={{ scale: 1.1 }}
                         src="https://streak-stats.demolab.com/?user=saikhmirsat&theme=buefy" alt="" />
