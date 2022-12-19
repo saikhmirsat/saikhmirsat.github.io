@@ -13,7 +13,8 @@ import typescript from '../Images/typescript.png'
 import chakra from '../Images/chakra.png'
 import storybook from '../Images/storybook.png'
 import npm from '../Images/npm.png'
-import nextjs from '../Images/nextjs.svg'
+// import nextjs from '../Images/nextjs.svg'
+import next from '../Images/next.png'
 import bootstrap from '../Images/bootstraplogo.jpeg'
 import framer from '../Images/framer.jpeg'
 import netlify from '../Images/netlify.png'
@@ -97,7 +98,7 @@ export default function Skills() {
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                 >
-                    <img src={nextjs} alt="next" />
+                    <img src={next} alt="next" />
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: 1.1 }}
