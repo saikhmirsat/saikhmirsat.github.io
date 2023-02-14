@@ -48,7 +48,7 @@ export default function Contact() {
             <div className='contact-con-child-2'>
                 <div className='cont-con-child-2-con-1' >
                     <div className='resume-btn-div'>
-                        <button className='resume-btn'><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/uc?export=download&id=1imBTexe0OSVvVlGaFq7dljd8kThFy8Ks">Download My Resume</a></button>
+                        <button className='resume-btn'><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/uc?export=download&id=1imBTexe0OSVvVlGaFq7dljd8kThFy8Ks">My Resume</a></button>
                     </div>
 
                     {/* <h1 className='contact-me-head'>Contact Me</h1> */}
@@ -61,13 +61,13 @@ export default function Contact() {
                     <div style={{ display: 'flex', gap: "30px", marginTop: "30px", justifyContent: 'center' }}>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="https://www.linkedin.com/in/saikhmirsat/"><AiOutlineLinkedin className='linkedin' size="50px" color='#039de3' /></a></motion.div>
+                        ><a href="https://www.linkedin.com/in/saikhmirsat/" target="_blank"><AiOutlineLinkedin className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#039de3' /></a></motion.div>
+                        ><a href="https://github.com/saikhmirsat" target="_blank"><FaGithubSquare className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
-                        ><a href="mailto:saikh.mirsat.786@gmail.com" ><GoMail className='linkedin' size="50px" color='#039de3' /></a></motion.div>
+                        ><a href="mailto:saikh.mirsat.786@gmail.com" target="_blank"><GoMail className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                         <motion.div
                             whileHover={{ scale: 1.3 }}
                         ><a href="tel:7205190819" ><TbPhoneCall className='linkedin' size="50px" color='#039de3' /></a></motion.div>

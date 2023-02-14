@@ -9,9 +9,9 @@ import express from '../Images/express.png'
 import react from '../Images/react.png'
 import redux from '../Images/redux.png'
 import node from '../Images/node.png'
-import typescript from '../Images/typescript.png'
+// import typescript from '../Images/typescript.png'
 import chakra from '../Images/chakra.png'
-import storybook from '../Images/storybook.png'
+// import storybook from '../Images/storybook.png'
 import npm from '../Images/npm.png'
 // import nextjs from '../Images/nextjs.svg'
 import next from '../Images/next.png'
@@ -19,7 +19,7 @@ import bootstrap from '../Images/bootstraplogo.jpeg'
 import framer from '../Images/framer.jpeg'
 import netlify from '../Images/netlify.png'
 import github from '../Images/github.png'
-import cypress from '../Images/cypress.webp'
+// import cypress from '../Images/cypress.webp'
 
 
 
@@ -65,11 +65,11 @@ export default function Skills() {
                 >
                     <img src={redux} alt="nodejs" />
                 </motion.div>
-                <motion.div
+                {/* <motion.div
                     whileHover={{ scale: 1.1 }}
                 >
                     <img src={typescript} alt="redux" />
-                </motion.div>
+                </motion.div> */}
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                 >
@@ -85,11 +85,11 @@ export default function Skills() {
                 >
                     <img src={bootstrap} alt="boot" />
                 </motion.div>
-                <motion.div
+                {/* <motion.div
                     whileHover={{ scale: 1.1 }}
                 >
                     <img src={storybook} alt="storybook" />
-                </motion.div>
+                </motion.div> */}
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                 >
@@ -115,11 +115,11 @@ export default function Skills() {
                 >
                     <img src={framer} alt="framer" />
                 </motion.div>
-                <motion.div
+                {/* <motion.div
                     whileHover={{ scale: 1.1 }}
                 >
                     <img src={cypress} alt="cypress" />
-                </motion.div>
+                </motion.div> */}
 
 
             </div>
