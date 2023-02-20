@@ -41,13 +41,13 @@ export default function AboutMe() {
                         <div style={{ display: 'flex', gap: "30px", marginTop: "30px", justifyContent: 'center' }}>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="https://www.linkedin.com/in/saikhmirsat/"><AiOutlineLinkedin className='linkedin' size="50px" color='#039de3' /></a></motion.div>
+                            ><a href="https://www.linkedin.com/in/saikhmirsat/" target="_blank"><AiOutlineLinkedin className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="https://github.com/saikhmirsat"><FaGithubSquare className='linkedin' size="50px" color='#039de3' /></a></motion.div>
+                            ><a href="https://github.com/saikhmirsat" target="_blank"><FaGithubSquare className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
-                            ><a href="mailto:saikh.mirsat.786@gmail.com" ><GoMail className='linkedin' size="50px" color='#039de3' /></a></motion.div>
+                            ><a href="mailto:saikh.mirsat.786@gmail.com" target="_blank"><GoMail className='linkedin' size="50px" color='#039de3' /></a></motion.div>
                             <motion.div
                                 whileHover={{ scale: 1.3 }}
                             ><a href="tel:7205190819" ><TbPhoneCall className='linkedin' size="50px" color='#039de3' /></a></motion.div>
@@ -62,7 +62,7 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     )
 }
