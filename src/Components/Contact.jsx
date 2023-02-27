@@ -12,6 +12,7 @@ import { BsTelephoneOutbound } from 'react-icons/bs'
 import { AiOutlineHome } from 'react-icons/ai'
 import { GoMail } from 'react-icons/go'
 import { TbPhoneCall } from 'react-icons/tb'
+import Resume from '../Images/fw19_0481-Saikh-Mirsat.pdf'
 
 export default function Contact() {
 
@@ -31,6 +32,10 @@ export default function Contact() {
 
     };
 
+    const handelClick = () => {
+        window.open("https://drive.google.com/file/d/1HxjdMB0DAuU5IfDJJvbWpfoq5d_0oTfp/view?usp=sharing", "_blank")
+    }
+
 
 
     return (
@@ -47,9 +52,18 @@ export default function Contact() {
             </div>
             <div className='contact-con-child-2'>
                 <div className='cont-con-child-2-con-1' >
-                    <div className='resume-btn-div'>
-                        <button className='resume-btn'><a style={{ textDecoration: 'none', color: 'white' }} href="https://drive.google.com/uc?export=download&id=1imBTexe0OSVvVlGaFq7dljd8kThFy8Ks">My Resume</a></button>
-                    </div>
+                    <a
+                        href={Resume}
+                        target="_blank"
+                        download={"fw19_0481-Saikh-Mirsat"}
+                        _hover={{ TextDecoder: "none" }}
+
+                        className='resume-btn-div'>
+                        <button
+                            download={Resume}
+                            onClick={() => handelClick()}
+                            className='resume-btn'>Resume</button>
+                    </a>
 
                     {/* <h1 className='contact-me-head'>Contact Me</h1> */}
                     <div className='con-address-container'>
