@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.261378e3.css",
-    "main.js": "/static/js/main.2a79ac67.js",
+    "main.css": "/static/css/main.30465e51.css",
+    "main.js": "/static/js/main.f13db6d1.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/lovoda.jpg": "/static/media/lovoda.95c7177ffb0d141f092b.jpg",
     "static/media/kindmeal.jpg": "/static/media/kindmeal.97aecf2092232b24e2b5.jpg",
@@ -37,12 +37,12 @@
     "static/media/css.png": "/static/media/css.f2842c1cb1d1cf94f7ad.png",
     "static/media/html.png": "/static/media/html.c0f092735ca68286a3d0.png",
     "index.html": "/index.html",
-    "main.261378e3.css.map": "/static/css/main.261378e3.css.map",
-    "main.2a79ac67.js.map": "/static/js/main.2a79ac67.js.map",
+    "main.30465e51.css.map": "/static/css/main.30465e51.css.map",
+    "main.f13db6d1.js.map": "/static/js/main.f13db6d1.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.261378e3.css",
-    "static/js/main.2a79ac67.js"
+    "static/css/main.30465e51.css",
+    "static/js/main.f13db6d1.js"
   ]
 }
