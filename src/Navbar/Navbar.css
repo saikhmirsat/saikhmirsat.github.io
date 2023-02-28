@@ -20,6 +20,20 @@
 
 }
 
+.nav-resume-btn-con {
+    /* border: 1px solid green; */
+    padding: 5px 10px;
+}
+
+.nav-resume-btn-con>a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-resume-btn-con #dark {
+    color: black;
+}
+
 .nav-links {
     width: 80%;
     margin: auto;
@@ -54,12 +68,16 @@
     box-shadow: #0871a2 0px 0px 20px;
 }
 
-
-
 .mobile-menu-icon {
     display: none;
 }
 
+.nav-resume-btn-con:hover {}
+
+
+.themeBtn {
+    padding: 5px 10px;
+}
 
 
 /* @media screen and (max-width:780px) { */
