@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.84f3fdf8.css",
-    "main.js": "/static/js/main.58bf2257.js",
+    "main.css": "/static/css/main.261378e3.css",
+    "main.js": "/static/js/main.2a79ac67.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/lovoda.jpg": "/static/media/lovoda.95c7177ffb0d141f092b.jpg",
     "static/media/kindmeal.jpg": "/static/media/kindmeal.97aecf2092232b24e2b5.jpg",
@@ -26,6 +26,7 @@
     "static/media/bootstraplogo.jpeg": "/static/media/bootstraplogo.cb1aa7ebab86974f5bb0.jpeg",
     "static/media/myPicture.png": "/static/media/myPicture.0bd5ab69f956264c6997.png",
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
+    "static/media/fw19_0481-Saikh-Mirsat.pdf": "/static/media/fw19_0481-Saikh-Mirsat.f0a9adf916582ed76d67.pdf",
     "static/media/react.png": "/static/media/react.283bf42c605cfc49cf49.png",
     "static/media/mongodb.png": "/static/media/mongodb.2f371e6a10a943779370.png",
     "static/media/next.png": "/static/media/next.48ddc8121a0fcb543d64.png",
@@ -36,12 +37,12 @@
     "static/media/css.png": "/static/media/css.f2842c1cb1d1cf94f7ad.png",
     "static/media/html.png": "/static/media/html.c0f092735ca68286a3d0.png",
     "index.html": "/index.html",
-    "main.84f3fdf8.css.map": "/static/css/main.84f3fdf8.css.map",
-    "main.58bf2257.js.map": "/static/js/main.58bf2257.js.map",
+    "main.261378e3.css.map": "/static/css/main.261378e3.css.map",
+    "main.2a79ac67.js.map": "/static/js/main.2a79ac67.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84f3fdf8.css",
-    "static/js/main.58bf2257.js"
+    "static/css/main.261378e3.css",
+    "static/js/main.2a79ac67.js"
   ]
 }
