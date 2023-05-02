@@ -1,10 +1,15 @@
 import React from 'react'
 import "./Project.css"
-import chargebee from '../Images/chargebee.jpg'
-import chargebee2 from '../Images/chargebee2.jpg'
-import chargebee3 from '../Images/chargebee3.jpg'
-import chargebee4 from '../Images/chargebee4.jpg'
-import chargebee5 from '../Images/chargebee5.jpg'
+import manyavar_1 from '../Images/manyavar_1.png'
+import manyavar_2 from '../Images/manyavar_2.png'
+import manyavar_3 from '../Images/manyavar_3.png'
+import manyavar_4 from '../Images/manyavar_4.png'
+import manyavar_5 from '../Images/manyavar_5.png'
+import manyavar_6 from '../Images/manyavar_6.png'
+import manyavar_7 from '../Images/manyavar_7.png'
+import manyavar_8 from '../Images/manyavar_8.png'
+import manyavar_9 from '../Images/manyavar_9.png'
+
 import react from '../Images/react.png'
 import html from '../Images/html.png'
 import javascript from '../Images/javascript.png'
@@ -24,6 +29,11 @@ import finishline3 from '../Images/finishline3.jpg'
 import finishline4 from '../Images/finishline4.jpg'
 import finishline5 from '../Images/finishline5.jpg'
 
+import mongodb from '../Images/mongodb.png'
+import cyclic from '../Images/cyclic_logo.png'
+import vercel from '../Images/vercel.jpg'
+
+
 import GithubCalender from './GithubCalender';
 import { motion } from 'framer-motion'
 
@@ -36,32 +46,49 @@ export default function Project() {
                     <motion.img
                         whileHover={{ scale: 1.1 }}
                         transition={{ duration: 1 }}
-                        src={chargebee} alt="chargebee" />
+                        src={manyavar_1} alt="chargebee" />
                     <motion.img
                         whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 1 }} src={chargebee2} alt="chargebee" />
+                        transition={{ duration: 1 }} src={manyavar_2} alt="chargebee" />
                     <motion.img
                         whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 1 }} src={chargebee3} alt="chargebee" />
+                        transition={{ duration: 1 }} src={manyavar_3} alt="chargebee" />
                     <motion.img
                         whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 1 }} src={chargebee4} alt="chargebee" />
+                        transition={{ duration: 1 }} src={manyavar_4} alt="chargebee" />
                     <motion.img
                         whileHover={{ scale: 1.1 }}
-                        transition={{ duration: 1 }} src={chargebee5} alt="chargebee" />
+                        transition={{ duration: 1 }} src={manyavar_5} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={manyavar_6} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={manyavar_7} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={manyavar_8} alt="chargebee" />
+                    <motion.img
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ duration: 1 }} src={manyavar_9} alt="chargebee" />
                 </div>
                 <div className='project-cont-child-2'>
                     <div className='project-cont-child-2-con1'>
-                        <h1>Chargebee.com</h1>
-                        <p>Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.</p>
+                        <h1>Manyavar.com</h1>
+                        <p>One of India's leading celebration wear brands. Providing
+                            branded ethnic wear for men and kids and also for women with
+                            Mohey's collection,</p>
                         <div className='project-logo-con'>
                             <img src={react} alt="react" />
                             <img src={javascript} alt="js" />
                             <img src={css} alt="css" />
+                            <img src={mongodb} alt="" />
+                            <img src={cyclic} alt="" />
+                            <img src={vercel} alt="" />
                         </div>
                         <div className='project-bot-con'>
-                            <button><a href="https://github.com/saikhmirsat/chargebee.com/tree/master/synonymous-wall" target="_blank">Github Code</a></button>
-                            <button><a href="https://chargebee-com-clone.vercel.app/" target="_blank">Live View</a></button>
+                            <button><a href="https://github.com/saikhmirsat/Manyavar-Clone" target="_blank">Github Code</a></button>
+                            <button><a href="https://manyavar-clone-nine.vercel.app/" target="_blank">Live View</a></button>
                         </div>
                     </div>
                 </div>
@@ -93,9 +120,7 @@ export default function Project() {
                             <img src={react} alt="react" />
                             <img src={javascript} alt="js" />
                             <img src={css} alt="css" />
-                            <img src='https://www.cyclic.sh/images/cyclic-logo.png' alt="cyclic" />
-                            <img src="https://skillshack.blob.core.windows.net/uploads/express.webp" alt="" />
-                            {/* <img src="" alt="" /> */}
+                            <img src={cyclic} alt="cyclic" />
                         </div>
                         <div className='project-bot-con'>
                             <button><a href="https://github.com/saikhmirsat/Finishline.com_Clone/tree/main/frontend" target="_blank">Github Code</a></button>
