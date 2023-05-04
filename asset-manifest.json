@@ -1,10 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.30465e51.css",
-    "main.js": "/static/js/main.448e33ce.js",
+    "main.js": "/static/js/main.dd7e55b9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/manyavar_1.png": "/static/media/manyavar_1.fef21349aa65c1ac4c6f.png",
+    "static/media/manyavar_3.png": "/static/media/manyavar_3.4cfb2f3936b3b72e2340.png",
+    "static/media/manyavar_4.png": "/static/media/manyavar_4.bb0bc7c3720d33709c2c.png",
+    "static/media/manyavar_8.png": "/static/media/manyavar_8.11922d35894153fb71ed.png",
     "static/media/lovoda.jpg": "/static/media/lovoda.95c7177ffb0d141f092b.jpg",
+    "static/media/manyavar_7.png": "/static/media/manyavar_7.d68d466b400b874df6ac.png",
     "static/media/kindmeal.jpg": "/static/media/kindmeal.97aecf2092232b24e2b5.jpg",
+    "static/media/manyavar_5.png": "/static/media/manyavar_5.7880be0afce435d96d42.png",
     "static/media/finishline1.jpg": "/static/media/finishline1.6403584c01968befd565.jpg",
     "static/media/kindmeal2.jpg": "/static/media/kindmeal2.c7cab958e366e4ab1c4a.jpg",
     "static/media/finishline3.jpg": "/static/media/finishline3.5064d6b1309adb142965.jpg",
@@ -13,20 +19,19 @@
     "static/media/finishline2.jpg": "/static/media/finishline2.ad88b6b2e88128b7054f.jpg",
     "static/media/lovoda2.jpg": "/static/media/lovoda2.6e17599d86dfd729be8a.jpg",
     "static/media/finishline5.jpg": "/static/media/finishline5.d7a734455f61f1792aba.jpg",
+    "static/media/manyavar_6.png": "/static/media/manyavar_6.e0a822a145eb3fdacbbb.png",
     "static/media/lovoda4.jpg": "/static/media/lovoda4.cfa5ba03d15cc57fbc08.jpg",
-    "static/media/chargebee.jpg": "/static/media/chargebee.492b0ae0d00d670e3097.jpg",
     "static/media/finishline4.jpg": "/static/media/finishline4.1f88e3b08e05abcc292b.jpg",
+    "static/media/manyavar_2.png": "/static/media/manyavar_2.df32373a5b3912ea3d80.png",
+    "static/media/manyavar_9.png": "/static/media/manyavar_9.1709c9fbc3d3acf0c73e.png",
     "static/media/kindmeal5.jpg": "/static/media/kindmeal5.7fc001fe2bb8584a325d.jpg",
-    "static/media/chargebee5.jpg": "/static/media/chargebee5.f6ae2e23a7a61939d33b.jpg",
-    "static/media/chargebee2.jpg": "/static/media/chargebee2.82d4d1ecb0ece10ced3c.jpg",
     "static/media/kindmeal4.jpg": "/static/media/kindmeal4.f31e672339a191acfa9c.jpg",
-    "static/media/chargebee3.jpg": "/static/media/chargebee3.4e49e0227f15b5ff56e9.jpg",
-    "static/media/chargebee4.jpg": "/static/media/chargebee4.47d5cba4205e025049d5.jpg",
     "static/media/github.png": "/static/media/github.42ef034c5ab5138e226a.png",
     "static/media/bootstraplogo.jpeg": "/static/media/bootstraplogo.cb1aa7ebab86974f5bb0.jpeg",
     "static/media/myPicture.png": "/static/media/myPicture.0bd5ab69f956264c6997.png",
     "static/media/netlify.png": "/static/media/netlify.603ef81c872f9df8c343.png",
     "static/media/fw19_0481-Saikh-Mirsat.pdf": "/static/media/fw19_0481-Saikh-Mirsat.f26a268b6dfb7c8b4d00.pdf",
+    "static/media/vercel.jpg": "/static/media/vercel.861f6871e5323184aefe.jpg",
     "static/media/react.png": "/static/media/react.283bf42c605cfc49cf49.png",
     "static/media/mongodb.png": "/static/media/mongodb.2f371e6a10a943779370.png",
     "static/media/next.png": "/static/media/next.48ddc8121a0fcb543d64.png",
@@ -38,11 +43,11 @@
     "static/media/html.png": "/static/media/html.c0f092735ca68286a3d0.png",
     "index.html": "/index.html",
     "main.30465e51.css.map": "/static/css/main.30465e51.css.map",
-    "main.448e33ce.js.map": "/static/js/main.448e33ce.js.map",
+    "main.dd7e55b9.js.map": "/static/js/main.dd7e55b9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30465e51.css",
-    "static/js/main.448e33ce.js"
+    "static/js/main.dd7e55b9.js"
   ]
 }
